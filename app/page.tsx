@@ -354,7 +354,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Phone</div>
-                    <div className="text-gray-300">(555) 123-4567</div>
+                    <div className="text-gray-300">+1 (301) 710-3578</div>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -365,7 +365,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Email</div>
-                    <div className="text-gray-300">info@robinsonsredesigns.com</div>
+                    <div className="text-gray-300">robinsonsredesignscorp@gmail.com</div>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -401,7 +401,7 @@ export default function Home() {
                     <div className="font-semibold mb-3">Follow Us</div>
                     <div className="flex gap-4">
                       <a
-                        href="#instagram"
+                        href="https://www.instagram.com/robinsonsredesignllc/"
                         className="w-10 h-10 bg-gradient-to-br from-[#ff6b35] to-[#ff006e] rounded-lg flex items-center justify-center hover:opacity-80 transition-opacity"
                         aria-label="Instagram"
                       >
