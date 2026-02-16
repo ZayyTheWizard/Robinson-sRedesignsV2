@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Robinson's Redesigns",
   description: "Expert home and commercial remodeling by Robinson's Redesigns. Reimagining spaces, redefining quality.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",        // IE/Edge/older browsers
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

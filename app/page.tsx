@@ -12,9 +12,9 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="relative min-h-[calc(100vh-64px)] bg-gradient-to-r from-[#ff6b35] to-[#ff006e] flex flex-col md:flex-row items-center">
+      <section id="home" className="relative min-h-[calc(100vh-64px)] bg-gradient-to-r from-[#ff6b35] to-[#ff006e] flex flex-col md:flex-row items-center justify-center">
         {/* Left Side - Text Content */}
-        <div className="flex-1 px-6 md:px-12 py-16 md:py-24 text-white z-10">
+        <div className="flex-1 px-6 md:px-12 py-16 md:py-24 text-white z-10 text-center">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
             Reimagining
             <br />
@@ -25,7 +25,7 @@ export default function Home() {
             Quality.
           </h1>
           <p className="text-lg md:text-xl mb-8 text-white/90">
-            Expert home and commercial remodeling by Robinson&apos;s Redesigns.
+            Expert home and commercial Lawn care by Robinson&apos;s Redesigns.
           </p>
           <SmoothScrollLink
             href="#contact"
@@ -34,48 +34,6 @@ export default function Home() {
           >
             Get a Quote
           </SmoothScrollLink>
-        </div>
-
-        {/* Right Side - Image with Overlay */}
-        <div className="flex-1 relative w-full h-[400px] md:h-[calc(100vh-64px)] overflow-hidden">
-          <div className="relative w-full h-full">
-            {/* Placeholder for construction worker image */}
-            <div className="absolute inset-0 bg-gradient-to-br from-amber-800 via-amber-700 to-amber-900">
-              {/* Construction scene background pattern */}
-              <div className="absolute inset-0 opacity-20">
-                <div className="absolute top-10 left-10 w-32 h-32 border-4 border-white/30 rotate-45"></div>
-                <div className="absolute top-32 right-20 w-24 h-24 border-4 border-white/30"></div>
-                <div className="absolute bottom-32 left-20 w-20 h-20 border-4 border-white/30 rotate-12"></div>
-              </div>
-              
-              {/* Construction worker silhouette/representation */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="relative">
-                  {/* Hard hat */}
-                  <div className="w-32 h-24 bg-yellow-400 rounded-t-full mx-auto mb-2 shadow-lg">
-                    <div className="w-full h-2 bg-yellow-500 rounded-t-full"></div>
-                  </div>
-                  {/* Person body */}
-                  <div className="w-24 h-32 bg-gray-600 mx-auto rounded-t-lg shadow-lg relative">
-                    {/* Tool belt */}
-                    <div className="absolute bottom-8 left-0 right-0 h-6 bg-amber-800 border-t-2 border-amber-900"></div>
-                    {/* Measuring tape representation */}
-                    <div className="absolute bottom-12 right-0 w-16 h-1 bg-yellow-400 transform rotate-12"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            {/* Overlay */}
-            <div className="absolute bottom-0 left-0 right-0 bg-[#1a1a1a]/90 p-6 md:p-8">
-              <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-                BUILD WITH CONFIDENCE
-              </h2>
-              <p className="text-white/80 text-sm md:text-base">
-                Your Home, Our Expertise
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -86,7 +44,7 @@ export default function Home() {
             Our Services
           </h2>
           <p className="text-xl text-gray-600 mb-12 text-center max-w-2xl mx-auto">
-            Comprehensive remodeling solutions for residential and commercial spaces
+            Comprehensive Lawn care solutions for residential and commercial spaces
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
@@ -131,7 +89,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-semibold text-[#1a1a1a] mb-4">Custom Solutions</h3>
               <p className="text-gray-600">
-                Tailored remodeling solutions to meet your specific needs and budget requirements.
+                Tailored lawn care solutions to meet your specific needs and budget requirements.
               </p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
@@ -169,7 +127,7 @@ export default function Home() {
                 About Robinson&apos;s Redesigns
               </h2>
               <p className="text-lg text-gray-700 mb-4">
-                With over 15 years of experience in the remodeling industry, Robinson&apos;s Redesigns has established itself as a trusted name in transforming spaces. We combine innovative design with expert craftsmanship to deliver exceptional results.
+                With over 15 years of experience in the lawn care industry, Robinson&apos;s Redesigns has established itself as a trusted name in transforming spaces. We combine innovative design with expert craftsmanship to deliver exceptional results.
               </p>
               <p className="text-lg text-gray-700 mb-4">
                 Our team of skilled professionals is committed to exceeding expectations, whether you&apos;re looking to renovate your home or upgrade your commercial space. We pride ourselves on attention to detail, quality materials, and outstanding customer service.
@@ -228,31 +186,31 @@ export default function Home() {
             Pricing & Packages
           </h2>
           <p className="text-xl text-gray-600 mb-12 text-center max-w-2xl mx-auto">
-            Transparent pricing for all your remodeling needs. Custom quotes available for every project.
+            Transparent pricing for all your lawn care needs. Custom quotes available for every project.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="border-2 border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow">
-              <h3 className="text-2xl font-bold text-[#1a1a1a] mb-4">Basic Remodel</h3>
+              <h3 className="text-2xl font-bold text-[#1a1a1a] mb-4">Basic Care</h3>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-[#ff6b35]">$15K</span>
-                <span className="text-gray-600"> - $50K</span>
+                <span className="text-4xl font-bold text-[#ff6b35]">$60</span>
+                <span className="text-gray-600"> - $120 &middot; per visit</span>
               </div>
               <ul className="space-y-3 mb-8 text-gray-700">
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Single room renovations</span>
+                  <span>Lawn mowing & edging</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Basic design consultation</span>
+                  <span>Sidewalk & driveway blow-off</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Standard materials</span>
+                  <span>Weed removal (beds & cracks)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Project timeline: 2-4 weeks</span>
+                  <span>Ideal bi-weekly maintenance</span>
                 </li>
               </ul>
               <button className="w-full bg-[#1a1a1a] text-white py-3 rounded-lg font-medium hover:bg-[#2d2d2d] transition-colors">
@@ -263,31 +221,31 @@ export default function Home() {
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-[#ff6b35] to-[#ff006e] text-white px-4 py-1 rounded-full text-sm font-semibold">
                 Most Popular
               </div>
-              <h3 className="text-2xl font-bold text-[#1a1a1a] mb-4">Premium Remodel</h3>
+              <h3 className="text-2xl font-bold text-[#1a1a1a] mb-4">Property Care Plan</h3>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-[#ff6b35]">$50K</span>
-                <span className="text-gray-600"> - $150K</span>
+                <span className="text-4xl font-bold text-[#ff6b35]">$140</span>
+                <span className="text-gray-600"> - $280 &middot; per visit</span>
               </div>
               <ul className="space-y-3 mb-8 text-gray-700">
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Multi-room renovations</span>
+                  <span>Everything in Basic</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Custom design planning</span>
+                  <span>Hedge & bush trimming</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Premium materials</span>
+                  <span>Mulch bed refresh (light maintenance)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Project timeline: 4-8 weeks</span>
+                  <span>Leaf removal / seasonal cleanup</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Dedicated project manager</span>
+                  <span>Small plant replacements</span>
                 </li>
               </ul>
               <button className="w-full bg-gradient-to-r from-[#ff6b35] to-[#ff006e] text-white py-3 rounded-lg font-medium hover:opacity-90 transition-opacity">
@@ -295,31 +253,31 @@ export default function Home() {
               </button>
             </div>
             <div className="border-2 border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow">
-              <h3 className="text-2xl font-bold text-[#1a1a1a] mb-4">Luxury Remodel</h3>
+              <h3 className="text-2xl font-bold text-[#1a1a1a] mb-4">Full Yard Transformation</h3>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-[#ff6b35]">$150K</span>
-                <span className="text-gray-600">+</span>
+                <span className="text-4xl font-bold text-[#ff6b35]">$450</span>
+                <span className="text-gray-600"> - $2500+ &middot; per visit</span>
               </div>
               <ul className="space-y-3 mb-8 text-gray-700">
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Complete home/commercial transformation</span>
+                  <span>Large cleanups & overgrown yards</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Full-service design & build</span>
+                  <span>Mulch installation</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Luxury materials & finishes</span>
+                  <span>Decorative rock install</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>Project timeline: 8-16 weeks</span>
+                  <span>Flower bed design & planting</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#ff6b35]">•</span>
-                  <span>24/7 project support</span>
+                  <span>Sod patch repair</span>
                 </li>
               </ul>
               <button className="w-full bg-[#1a1a1a] text-white py-3 rounded-lg font-medium hover:bg-[#2d2d2d] transition-colors">
@@ -371,18 +329,6 @@ export default function Home() {
                 <div className="flex items-start">
                   <div className="w-12 h-12 bg-gradient-to-br from-[#ff6b35] to-[#ff006e] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <div className="font-semibold mb-1">Address</div>
-                    <div className="text-gray-300">123 Construction Ave<br />Building City, BC 12345</div>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div className="w-12 h-12 bg-gradient-to-br from-[#ff6b35] to-[#ff006e] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
@@ -402,6 +348,7 @@ export default function Home() {
                     <div className="flex gap-4">
                       <a
                         href="https://www.instagram.com/robinsonsredesignllc/"
+                        target="_blank"
                         className="w-10 h-10 bg-gradient-to-br from-[#ff6b35] to-[#ff006e] rounded-lg flex items-center justify-center hover:opacity-80 transition-opacity"
                         aria-label="Instagram"
                       >
@@ -488,28 +435,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-
-      {/* Chat Icon */}
-      <div className="fixed bottom-6 right-6 z-50">
-        <button
-          className="bg-[#ff006e] hover:bg-[#ff006e]/90 text-white rounded-full p-4 shadow-lg transition-all hover:scale-110"
-          aria-label="Chat support"
-        >
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-            />
-          </svg>
-        </button>
-      </div>
     </div>
   );
 }
