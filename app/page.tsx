@@ -298,7 +298,7 @@ export default function Home() {
             Get In Touch
           </h2>
           <p className="text-xl text-gray-300 mb-12 text-center max-w-2xl mx-auto">
-            Ready to start your remodeling project? Contact us today for a free consultation.
+            Ready to improve your curb appeal? Contact us today for a free estimate.
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
