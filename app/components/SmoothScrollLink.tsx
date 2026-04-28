@@ -1,37 +1,28 @@
 "use client";
 
+import { smoothScrollToId } from "../lib/smoothScrollToId";
+
 interface SmoothScrollLinkProps {
-  href: string;
-  targetId: string;
-  children: React.ReactNode;
-  className?: string;
+	href: string;
+	targetId: string;
+	children: React.ReactNode;
+	className?: string;
 }
 
 export default function SmoothScrollLink({
-  href,
-  targetId,
-  children,
-  className,
+	href,
+	targetId,
+	children,
+	className,
 }: SmoothScrollLinkProps) {
-  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    const element = document.getElementById(targetId);
-    if (element) {
-      const headerOffset = 80;
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+	const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
+		e.preventDefault();
+		smoothScrollToId(targetId);
+	};
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth",
-      });
-    }
-  };
-
-  return (
-    <a href={href} onClick={handleSmoothScroll} className={className}>
-      {children}
-    </a>
-  );
+	return (
+		<a href={href} onClick={handleSmoothScroll} className={className}>
+			{children}
+		</a>
+	);
 }
-

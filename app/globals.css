@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --color-black: #1a1a1a;
-  --color-orange: #ff6b35;
-  --color-pink: #ff006e;
+	--background: #ffffff;
+	--foreground: #171717;
+	--color-black: #1a1a1a;
+	--color-orange: #ff6b35;
+	--color-pink: #ff006e;
 }
 
 @theme inline {
@@ -16,12 +16,12 @@
 }
 
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 80px;
+	scroll-behavior: smooth;
+	scroll-padding-top: 80px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+	background: var(--background);
+	color: var(--foreground);
+	font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
